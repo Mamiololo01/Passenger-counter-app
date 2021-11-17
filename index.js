@@ -17,3 +17,9 @@ function increment() {
     count = count + 1
     countEl.innerText = count
 }
+
+// Create a function, save (), which logs out the count
+
+function save () {
+   console.log(count) 
+}

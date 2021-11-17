@@ -34,5 +34,11 @@ button {
 }
 
 #save-btn {
-    background: brown;
+    background:blue;
 }
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    #body, #hi, #h2 {
+      width: 100%;
+    }}
